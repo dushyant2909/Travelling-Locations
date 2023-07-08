@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dushyant2909/Travelling-Locations/static/css/main.8bdba192.css",
+    "main.js": "/dushyant2909/Travelling-Locations/static/js/main.a9b86c52.js",
+    "static/js/787.e91946ff.chunk.js": "/dushyant2909/Travelling-Locations/static/js/787.e91946ff.chunk.js",
+    "static/media/Jaipur.jpg": "/dushyant2909/Travelling-Locations/static/media/Jaipur.e1a493fc3a1e8b5e90b8.jpg",
+    "static/media/Kashmir.jpg": "/dushyant2909/Travelling-Locations/static/media/Kashmir.2f5569b22f39ff135d81.jpg",
+    "static/media/Gwalior.jpg": "/dushyant2909/Travelling-Locations/static/media/Gwalior.553a699b35fd173537b8.jpg",
+    "static/media/Agra.jpg": "/dushyant2909/Travelling-Locations/static/media/Agra.998ad2266e11eeca16c0.jpg",
+    "static/media/Shimla.jpg": "/dushyant2909/Travelling-Locations/static/media/Shimla.5104d59f415544e37b96.jpg",
+    "static/media/Goa.jpg": "/dushyant2909/Travelling-Locations/static/media/Goa.0422f6c5fadcac4a5d7a.jpg",
+    "index.html": "/dushyant2909/Travelling-Locations/index.html",
+    "main.8bdba192.css.map": "/dushyant2909/Travelling-Locations/static/css/main.8bdba192.css.map",
+    "main.a9b86c52.js.map": "/dushyant2909/Travelling-Locations/static/js/main.a9b86c52.js.map",
+    "787.e91946ff.chunk.js.map": "/dushyant2909/Travelling-Locations/static/js/787.e91946ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bdba192.css",
+    "static/js/main.a9b86c52.js"
+  ]
+}

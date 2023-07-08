@@ -1,0 +1,23 @@
+.wrapper{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+}
+.border-outer{
+    border: 5px dashed rgb(1,17,160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 30px;
+    border-radius: 17px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media (max-width:999px){
+    .border-outer{
+        font-size: 25px;
+    }
+}

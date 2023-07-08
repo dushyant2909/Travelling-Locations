@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import LandingPage from './Components/LandingPage';
+import data from './Components/Data';
+import Heading from './Components/Heading';
+import Refresh from './Components/Refresh';
 
 function App() {
+  const [allCities, setCities] = useState(data);
+
+  function removeHandler(id) {
+    const filteredCities = allCities.filter((city) => city.id !== id);
+    setCities(filteredCities);
+  }
+
+  function refreshHandler() {
+    setCities(data);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Heading />
+      {allCities.length === 0 ? (
+        <Refresh refreshHandler={refreshHandler} />
+      ) : (
+        <LandingPage cities={allCities} removeCity={removeHandler} />
+      )}
+    </>
   );
 }
 

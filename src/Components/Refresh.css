@@ -1,0 +1,15 @@
+.refresh-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.refresh {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(232, 115, 164);
+}

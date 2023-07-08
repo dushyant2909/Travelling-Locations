@@ -1,0 +1,10 @@
+.outer{
+    padding:0px 50px 50px 50px;
+}
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+}
